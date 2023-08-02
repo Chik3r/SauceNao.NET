@@ -20,7 +20,7 @@ public class SauceNao {
     public async Task<SearchResult> Search(byte[] image) {
         Dictionary<string, string> parameters = new() {
             ["api_key"] = ApiKey,
-            ["output_type"] = OutputType.Json.ToString(),
+            ["output_type"] = ((int)OutputType.Json).ToString(),
             // ["dbmask"]
             // ["dbmaski"]
             // ["db"]
@@ -31,8 +31,9 @@ public class SauceNao {
         };
         Uri uri = AddParameters(new Uri(BaseUrl), parameters);
 
-        MultipartContent content = new();
-        content.Add(new ByteArrayContent(image));
+        using MemoryStream stream = new(image);
+        MultipartFormDataContent content = new();
+        content.Add(new StreamContent(stream), "file", "image.png");
 
         HttpResponseMessage response = await Client.PostAsync(uri, content);
         response.EnsureSuccessStatusCode();
