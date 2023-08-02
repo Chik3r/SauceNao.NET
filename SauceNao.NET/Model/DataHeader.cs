@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace SauceNao.NET.Data; 
+namespace SauceNao.NET.Model; 
 
 public record DataHeader(
     [property: JsonPropertyName("similarity")] string Similarity,

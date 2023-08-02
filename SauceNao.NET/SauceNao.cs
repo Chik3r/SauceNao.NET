@@ -1,7 +1,8 @@
 ﻿using System.Collections.Specialized;
 using System.Text.Json;
 using System.Web;
-using SauceNao.NET.Data;
+using SauceNao.NET.Model;
+using SauceNao.NET.Exceptions;
 
 namespace SauceNao.NET;
 
@@ -37,7 +38,18 @@ public class SauceNao {
         response.EnsureSuccessStatusCode();
         
         string json = await response.Content.ReadAsStringAsync();
-        return JsonSerializer.Deserialize<SearchResult>(json);
+        SearchResult result = JsonSerializer.Deserialize<SearchResult>(json) ?? throw new NullReferenceException();
+
+        if (result.Header.Status < 0)
+            throw new UnknownClientError();
+        if (result.Header.Status > 0)
+            throw new UnknownServerError();
+        if (result.Header.ShortRemaining < 0)
+            throw new RateLimitException(RateLimitReached.ShortLimit);
+        if (result.Header.LongRemaining < 0)
+            throw new RateLimitException(RateLimitReached.LongLimit);
+        
+        return result;
     }
 
     private static Uri AddParameters(Uri uri, Dictionary<string, string> parameters) {

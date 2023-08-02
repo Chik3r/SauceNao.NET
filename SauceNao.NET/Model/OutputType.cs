@@ -1,4 +1,4 @@
-﻿namespace SauceNao.NET.Data; 
+﻿namespace SauceNao.NET.Model; 
 
 public enum OutputType {
     Html = 0,

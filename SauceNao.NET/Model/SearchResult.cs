@@ -1,8 +1,8 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace SauceNao.NET.Data; 
+namespace SauceNao.NET.Model; 
 
 public record SearchResult(
     [property: JsonPropertyName("header")] ResultHeader Header,
-    [property: JsonPropertyName("data")] Data? Data
+    [property: JsonPropertyName("results")] List<Result>? Results
 );
