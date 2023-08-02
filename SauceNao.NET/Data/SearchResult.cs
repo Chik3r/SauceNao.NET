@@ -4,5 +4,5 @@ namespace SauceNao.NET.Data;
 
 public record SearchResult(
     [property: JsonPropertyName("header")] ResultHeader Header,
-    [property: JsonPropertyName("data")] Data Data
+    [property: JsonPropertyName("data")] Data? Data
 );
