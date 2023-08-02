@@ -1,0 +1,588 @@
+﻿{
+  "header": {
+    "user_id": "111527",
+    "account_type": "1",
+    "short_limit": "4",
+    "long_limit": "100",
+    "long_remaining": 94,
+    "short_remaining": 3,
+    "status": 0,
+    "results_requested": 16,
+    "index": {
+      "0": {
+        "status": 0,
+        "parent_id": 0,
+        "id": 0,
+        "results": 1
+      },
+      "2": {
+        "status": 0,
+        "parent_id": 2,
+        "id": 2,
+        "results": 1
+      },
+      "5": {
+        "status": 0,
+        "parent_id": 5,
+        "id": 5,
+        "results": 1
+      },
+      "6": {
+        "status": 0,
+        "parent_id": 6,
+        "id": 6,
+        "results": 1
+      },
+      "8": {
+        "status": 0,
+        "parent_id": 8,
+        "id": 8,
+        "results": 1
+      },
+      "9": {
+        "status": 0,
+        "parent_id": 9,
+        "id": 9,
+        "results": 8
+      },
+      "10": {
+        "status": 0,
+        "parent_id": 10,
+        "id": 10,
+        "results": 1
+      },
+      "11": {
+        "status": 0,
+        "parent_id": 11,
+        "id": 11,
+        "results": 1
+      },
+      "12": {
+        "status": 0,
+        "parent_id": 9,
+        "id": 12,
+        "results": 8
+      },
+      "16": {
+        "status": 0,
+        "parent_id": 16,
+        "id": 16,
+        "results": 1
+      },
+      "18": {
+        "status": 0,
+        "parent_id": 18,
+        "id": 18,
+        "results": 1
+      },
+      "19": {
+        "status": 0,
+        "parent_id": 19,
+        "id": 19,
+        "results": 1
+      },
+      "20": {
+        "status": 0,
+        "parent_id": 20,
+        "id": 20,
+        "results": 1
+      },
+      "21": {
+        "status": 0,
+        "parent_id": 21,
+        "id": 21,
+        "results": 1
+      },
+      "22": {
+        "status": 0,
+        "parent_id": 22,
+        "id": 22,
+        "results": 1
+      },
+      "23": {
+        "status": 0,
+        "parent_id": 23,
+        "id": 23,
+        "results": 1
+      },
+      "24": {
+        "status": 0,
+        "parent_id": 24,
+        "id": 24,
+        "results": 1
+      },
+      "25": {
+        "status": 0,
+        "parent_id": 9,
+        "id": 25,
+        "results": 8
+      },
+      "26": {
+        "status": 0,
+        "parent_id": 9,
+        "id": 26,
+        "results": 8
+      },
+      "27": {
+        "status": 0,
+        "parent_id": 9,
+        "id": 27,
+        "results": 8
+      },
+      "28": {
+        "status": 0,
+        "parent_id": 9,
+        "id": 28,
+        "results": 8
+      },
+      "29": {
+        "status": 0,
+        "parent_id": 9,
+        "id": 29,
+        "results": 8
+      },
+      "30": {
+        "status": 0,
+        "parent_id": 9,
+        "id": 30,
+        "results": 8
+      },
+      "31": {
+        "status": 0,
+        "parent_id": 31,
+        "id": 31,
+        "results": 1
+      },
+      "32": {
+        "status": 0,
+        "parent_id": 32,
+        "id": 32,
+        "results": 1
+      },
+      "33": {
+        "status": 0,
+        "parent_id": 33,
+        "id": 33,
+        "results": 1
+      },
+      "34": {
+        "status": 0,
+        "parent_id": 34,
+        "id": 34,
+        "results": 1
+      },
+      "35": {
+        "status": 0,
+        "parent_id": 35,
+        "id": 35,
+        "results": 1
+      },
+      "36": {
+        "status": 0,
+        "parent_id": 36,
+        "id": 36,
+        "results": 1
+      },
+      "37": {
+        "status": 0,
+        "parent_id": 37,
+        "id": 37,
+        "results": 1
+      },
+      "38": {
+        "status": 0,
+        "parent_id": 38,
+        "id": 38,
+        "results": 1
+      },
+      "39": {
+        "status": 0,
+        "parent_id": 39,
+        "id": 39,
+        "results": 1
+      },
+      "40": {
+        "status": 0,
+        "parent_id": 40,
+        "id": 40,
+        "results": 1
+      },
+      "41": {
+        "status": 0,
+        "parent_id": 41,
+        "id": 41,
+        "results": 1
+      },
+      "42": {
+        "status": 0,
+        "parent_id": 42,
+        "id": 42,
+        "results": 1
+      },
+      "43": {
+        "status": 0,
+        "parent_id": 43,
+        "id": 43,
+        "results": 1
+      },
+      "44": {
+        "status": 0,
+        "parent_id": 44,
+        "id": 44,
+        "results": 1
+      },
+      "51": {
+        "status": 0,
+        "parent_id": 5,
+        "id": 51,
+        "results": 1
+      },
+      "52": {
+        "status": 0,
+        "parent_id": 5,
+        "id": 52,
+        "results": 1
+      },
+      "53": {
+        "status": 0,
+        "parent_id": 5,
+        "id": 53,
+        "results": 1
+      },
+      "211": {
+        "status": 0,
+        "parent_id": 21,
+        "id": 211,
+        "results": 1
+      },
+      "341": {
+        "status": 0,
+        "parent_id": 341,
+        "id": 341,
+        "results": 1
+      },
+      "371": {
+        "status": 0,
+        "parent_id": 371,
+        "id": 371,
+        "results": 1
+      }
+    },
+    "search_depth": "128",
+    "minimum_similarity": 16.119999999999997,
+    "query_image_display": "/userdata/6ZKC0wGNR.gif.png",
+    "query_image": "6ZKC0wGNR.gif",
+    "results_returned": 16
+  },
+  "results": [
+    {
+      "header": {
+        "similarity": "15.12",
+        "thumbnail": "https://img1.saucenao.com/res/pixiv/5131/manga/51318798_p3.jpg?auth=d-eE0CvhZpfQb8DnWeeeBw&exp=1691521200",
+        "index_id": 5,
+        "index_name": "Index #5: Pixiv Images - 51318798_p3.jpg",
+        "dupes": 0,
+        "hidden": 0
+      },
+      "data": {
+        "ext_urls": [
+          "https://www.pixiv.net/member_illust.php?mode=medium&illust_id=51318798"
+        ],
+        "title": "血界まとめ２",
+        "pixiv_id": 51318798,
+        "member_name": "立浪",
+        "member_id": 7996040
+      }
+    },
+    {
+      "header": {
+        "similarity": "15.02",
+        "thumbnail": "https://img3.saucenao.com/kp/0b/bd/0bbd0e36f49af78bbb694cb94c2337b1866f0bbda01dc46e8c50a9080cbfd549.jpg.jpg?auth=hGaB6LZTRCMozEYeDrTTrg&exp=1691521200",
+        "index_id": 43,
+        "index_name": "Index #43: Kemono - 0bbd0e36f49af78bbb694cb94c2337b1866f0bbda01dc46e8c50a9080cbfd549.jpg.jpg",
+        "dupes": 0,
+        "hidden": 0
+      },
+      "data": {
+        "ext_urls": [
+          "https://www.patreon.com/posts/48855170",
+          "https://www.patreon.com/user?u=14792976"
+        ],
+        "published": "2021-03-17T11:11:49.000Z",
+        "title": "Wendy Blanco",
+        "service": "patreon",
+        "service_name": "Patreon",
+        "id": "48855170",
+        "user_id": "14792976",
+        "user_name": "Etiennet"
+      }
+    },
+    {
+      "header": {
+        "similarity": "14.95",
+        "thumbnail": "https://img1.saucenao.com/res/2_hcg/Haramiko%20%5BSelen%5D%20%28587705%29/img/sys/Graphics/7cb5.jpg?auth=yNwkaNGaahSFEj_eHxv1Yw&exp=1691521200",
+        "index_id": 2,
+        "index_name": "Index #2: H-Game CG - 7cb5.jpg",
+        "dupes": 0,
+        "hidden": 0
+      },
+      "data": {
+        "title": "Haramiko",
+        "company": "Selen",
+        "getchu_id": "587705"
+      }
+    },
+    {
+      "header": {
+        "similarity": "14.41",
+        "thumbnail": "https://img3.saucenao.com/ehentai/4f/23/4f23ec8c5e8ff0348bfeb3ece983f16fa335e0b5.jpg?auth=Q_pVplVkr7SfVwkkvnpcWQ&exp=1691521200",
+        "index_id": 38,
+        "index_name": "Index #38: H-Misc (E-Hentai) - 4f23ec8c5e8ff0348bfeb3ece983f16fa335e0b5.jpg",
+        "dupes": 0,
+        "hidden": 0
+      },
+      "data": {
+        "source": "The Costume 2",
+        "creator": [
+          "vipcaptions"
+        ],
+        "eng_name": "[VipCaptions] The Costume 2",
+        "jp_name": ""
+      }
+    },
+    {
+      "header": {
+        "similarity": "14.09",
+        "thumbnail": "https://img1.saucenao.com/res/pixiv/7123/71231545_p0_master1200.jpg?auth=gcchchONJGcpDo3u7CvtTA&exp=1691521200",
+        "index_id": 5,
+        "index_name": "Index #5: Pixiv Images - 71231545_p0_master1200.jpg",
+        "dupes": 0,
+        "hidden": 0
+      },
+      "data": {
+        "ext_urls": [
+          "https://www.pixiv.net/member_illust.php?mode=medium&illust_id=71231545"
+        ],
+        "title": "trans ?",
+        "pixiv_id": 71231545,
+        "member_name": "motta705",
+        "member_id": 15686493
+      }
+    },
+    {
+      "header": {
+        "similarity": "13.98",
+        "thumbnail": "https://img3.saucenao.com/skeb/91/91683-329024-calicchio23%2Bworks%2B79-2.jpg?auth=cjSQSbG1HMM_rMZ0FW0Y5A&exp=1691521200",
+        "index_id": 44,
+        "index_name": "Index #44: Skeb - 91683-329024-calicchio23+works+79-2.jpg",
+        "dupes": 0,
+        "hidden": 0
+      },
+      "data": {
+        "ext_urls": [
+          "https://skeb.jp//@calicchio23/works/79"
+        ],
+        "path": "/@calicchio23/works/79",
+        "creator": "@calicchio23",
+        "creator_name": "笹倉ささくら🔞Skeb募集中",
+        "author_name": null,
+        "author_url": "https://skeb.jp/@calicchio23"
+      }
+    },
+    {
+      "header": {
+        "similarity": "13.90",
+        "thumbnail": "https://img1.saucenao.com/res/nhentai/259493%20%281345537%29%20--%20%5BKesshousui%5D%20Ningen%20Bakudan%20%5BChinese%5D%20%5BK%E8%AE%B0%E7%BF%BB%E8%AF%91%5D/41.jpg?auth=8M7gV-Uu6Z0GRK06BbO9Sw&exp=1691521200",
+        "index_id": 18,
+        "index_name": "Index #18: H-Misc (nhentai) - 41.jpg",
+        "dupes": 0,
+        "hidden": 0
+      },
+      "data": {
+        "source": "Ningen Bakudan [Chinese] [K记翻译]",
+        "creator": [
+          "kesshousui"
+        ],
+        "eng_name": "[Kesshousui] Ningen Bakudan",
+        "jp_name": "[結晶水] 人間爆弾"
+      }
+    },
+    {
+      "header": {
+        "similarity": "13.80",
+        "thumbnail": "https://img3.saucenao.com/vpc/frame.php?expires=1691521200&auth=fsAMYd4hdRY3GLF0HFtJt2VxS-4&rsz=0&enc=YW5pbWUvT25lIFBpZWNlL1tIb3JyaWJsZVN1YnNdIE9uZSBQaWVjZSAtIDI5OSBbNDgwcF0ubWt2LjcyNjUuemlw&sub=18690-41-779488.jpg",
+        "index_id": 21,
+        "index_name": "Index #21: Anime* - 18690-41-779488.jpg (7265)",
+        "dupes": 0,
+        "hidden": 0
+      },
+      "data": {
+        "ext_urls": [
+          "https://anidb.net/anime/69",
+          "https://myanimelist.net/anime/21/",
+          "https://anilist.co/anime/21/"
+        ],
+        "source": "One Piece",
+        "anidb_aid": 69,
+        "mal_id": 21,
+        "anilist_id": 21,
+        "part": "299",
+        "year": "1999",
+        "est_time": "00:12:59 / 00:23:20"
+      }
+    },
+    {
+      "header": {
+        "similarity": "13.69",
+        "thumbnail": "https://img1.saucenao.com/res/pixiv/600/6000819_s.jpg?auth=tpc4pbJBpblJCf3QVGY0Mw&exp=1691521200",
+        "index_id": 5,
+        "index_name": "Index #5: Pixiv Images - 6000819_s.jpg",
+        "dupes": 0,
+        "hidden": 0
+      },
+      "data": {
+        "ext_urls": [
+          "https://www.pixiv.net/member_illust.php?mode=medium&illust_id=6000819"
+        ],
+        "title": "【素材】糸色望仕様矢絣パターン",
+        "pixiv_id": 6000819,
+        "member_name": "夢幻桜花",
+        "member_id": 897882
+      }
+    },
+    {
+      "header": {
+        "similarity": "13.39",
+        "thumbnail": "https://img3.saucenao.com/dA2/87413/874130995.jpg?auth=c02d8LbEztj0lTFKSLwIig&exp=1691521200",
+        "index_id": 34,
+        "index_name": "Index #34: deviantArt2 - 874130995.jpg",
+        "dupes": 0,
+        "hidden": 0
+      },
+      "data": {
+        "ext_urls": [
+          "https://deviantart.com/view/874130995"
+        ],
+        "title": "Scorchers title",
+        "da_id": "874130995",
+        "author_name": "MaxwellFury",
+        "author_url": "https://www.deviantart.com/maxwellfury"
+      }
+    },
+    {
+      "header": {
+        "similarity": "12.87",
+        "thumbnail": "https://img1.saucenao.com/res/pixiv_historical/1093/manga/10930775_p0.jpg?auth=P8aFZnY_rpW3-8UnWhcHzA&exp=1691521200",
+        "index_id": 6,
+        "index_name": "Index #6: Pixiv Historical - 10930775_p0.jpg",
+        "dupes": 0,
+        "hidden": 0
+      },
+      "data": {
+        "ext_urls": [
+          "https://www.pixiv.net/member_illust.php?mode=medium&illust_id=10930775"
+        ],
+        "title": "犯人祭り",
+        "pixiv_id": 10930775,
+        "member_name": "あんこ",
+        "member_id": 105245
+      }
+    },
+    {
+      "header": {
+        "similarity": "12.16",
+        "thumbnail": "https://img3.saucenao.com/dA/20877/208770152.jpg?auth=2s6uIVs5tsLyZJqhAMpVKw&exp=1691521200",
+        "index_id": 34,
+        "index_name": "Index #34: deviantArt - 208770152.jpg",
+        "dupes": 0,
+        "hidden": 0
+      },
+      "data": {
+        "ext_urls": [
+          "https://deviantart.com/view/208770152"
+        ],
+        "title": "dx",
+        "da_id": "208770152",
+        "author_name": "toghoj",
+        "author_url": "http://toghoj.deviantart.com"
+      }
+    },
+    {
+      "header": {
+        "similarity": "11.78",
+        "thumbnail": "https://img3.saucenao.com/furaffinity/350/3507676.jpg?auth=Bxx4Xee7AbnkTb4Cu01i9w&exp=1691521200",
+        "index_id": 40,
+        "index_name": "Index #40: FurAffinity - 3507676.jpg",
+        "dupes": 0,
+        "hidden": 0
+      },
+      "data": {
+        "ext_urls": [
+          "https://www.furaffinity.net/view/3507676"
+        ],
+        "title": "Powermad - Final Frontier beginning riff",
+        "fa_id": 3507676,
+        "author_name": "tempesta",
+        "author_url": "https://www.furaffinity.net/user/tempesta"
+      }
+    },
+    {
+      "header": {
+        "similarity": "11.73",
+        "thumbnail": "https://img3.saucenao.com/artstation/924/9248511_34484814.jpg?auth=QyAnJE2758DDFyrqMdhs0A&exp=1691521200",
+        "index_id": 39,
+        "index_name": "Index #39: Artstation - 9248511_34484814.jpg",
+        "dupes": 0,
+        "hidden": 0
+      },
+      "data": {
+        "ext_urls": [
+          "https://www.artstation.com/artwork/8eygBE"
+        ],
+        "title": "Portrait painting 12",
+        "as_project": "8eygBE",
+        "author_name": "Jaiven Jaan",
+        "author_url": "https://www.artstation.com/jaiven"
+      }
+    },
+    {
+      "header": {
+        "similarity": "10.92",
+        "thumbnail": "https://img3.saucenao.com/madokami/Manga/M/MA/MAOU/Maou%20Dante/Maou%20Dante%20v01.zip/080-081.jpg?auth=rniZAu5DC4tumjbWmNvSKA&exp=1691521200",
+        "index_id": 36,
+        "index_name": "Index #36: Madokami (Manga) - 080-081.jpg",
+        "dupes": 0,
+        "hidden": 0
+      },
+      "data": {
+        "ext_urls": [
+          "https://www.mangaupdates.com/series.html?id=4451"
+        ],
+        "mu_id": 4451,
+        "source": "Maou Dante",
+        "part": "Maou Dante v01",
+        "type": "Manga"
+      }
+    },
+    {
+      "header": {
+        "similarity": "10.53",
+        "thumbnail": "https://img3.saucenao.com/vpc/frame.php?expires=1691521200&auth=eEjrGIHyRWNKJ3TNz-BmiAKGSIk&rsz=0&enc=bW92aWVzL0NyYW5rIC0gSGlnaCBWb2x0YWdlICgyMDA5KSBbdHQxMTIxOTMxXS9DcmFuay5IaWdoLlZvbHRhZ2UuMjAwOS43MjBwLkJyUmlwLngyNjQuWUlGWS5tcDQuNTIyMzMuemlw&sub=39285-68-1638553.jpg",
+        "index_id": 23,
+        "index_name": "Index #23: Movies* - 39285-68-1638553.jpg (52233)",
+        "dupes": 1,
+        "hidden": 0
+      },
+      "data": {
+        "ext_urls": [
+          "https://www.imdb.com/title/tt1121931"
+        ],
+        "source": "Crank - High Voltage",
+        "imdb_id": "tt1121931",
+        "part": null,
+        "year": "2009",
+        "est_time": "00:27:19 / 01:35:51"
+      }
+    }
+  ]
+}
