@@ -1,0 +1,6 @@
+﻿{
+  "header": {
+    "status": -2,
+    "message": "<strong>Search Rate Too High.</strong><br /><br />UserTest, basic accounts share an IP based usage pool. Your IP (190.196.138.37) has exceeded the basic account type's rate limit of 4 searches every 30 seconds.<br />Account upgrades provide a per-user usage pool, and can be used to increase this limit.<br /><br />Please check the <a href='user.php?page=account-upgrades'>upgrades page</a> to find available upgrades."
+  }
+}

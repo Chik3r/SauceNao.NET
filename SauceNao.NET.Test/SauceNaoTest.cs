@@ -65,4 +65,15 @@ public class SauceNaoTest {
             .Respond("application/json", response);
         await Assert.ThrowsAsync<UnknownClientError>(async () => await sauceNao.Search("https://wikipedia.org/static/images/icons/wikipedia.pn"));
     }
+
+    [Fact]
+    public async Task RateLimit() {
+        SauceNao sauceNao = new("valid", MockHttp.ToHttpClient());
+        
+        string response = await File.ReadAllTextAsync("TestData/ratelimit.json");
+        
+        MockHttp.When(SauceNao.BaseUrl)
+            .Respond("application/json", response);
+        await Assert.ThrowsAsync<UnknownClientError>(async () => await sauceNao.Search(TestImage));
+    }
 }
