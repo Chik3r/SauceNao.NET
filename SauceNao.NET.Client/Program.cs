@@ -1,3 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace SauceNao.NET.Client; 
 
-Console.WriteLine("Hello, World!");
+class Program {
+    public static async Task Main() {
+        Console.WriteLine("Hello, World!");
+    }
+}
