@@ -52,4 +52,17 @@ public class SauceNaoTest {
         Data first = result.Results[0].Data;
         Assert.Equal("925729264", first.DaId);
     }
+
+    [Fact]
+    public async Task RequestInvalidWebImage() {
+        SauceNao sauceNao = new("valid", MockHttp.ToHttpClient());
+        
+        string response = await File.ReadAllTextAsync("TestData/invalid_url_response.json");
+        
+        MockHttp.When(SauceNao.BaseUrl)
+            .WithQueryString("api_key", "valid")
+            .WithQueryString("url", "https://wikipedia.org/static/images/icons/wikipedia.pn")
+            .Respond("application/json", response);
+        await Assert.ThrowsAsync<UnknownClientError>(async () => await sauceNao.Search("https://wikipedia.org/static/images/icons/wikipedia.pn"));
+    }
 }

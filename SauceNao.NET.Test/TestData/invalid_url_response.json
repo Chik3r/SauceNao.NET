@@ -1,0 +1,13 @@
+﻿{
+  "header": {
+    "user_id": "111527",
+    "account_type": "1",
+    "short_limit": "4",
+    "long_limit": "100",
+    "long_remaining": 90,
+    "short_remaining": 3,
+    "status": -3,
+    "results_requested": "8",
+    "message": "Specified file no longer exists on the remote server! (404 - https:\/\/wikipedia.org\/static\/images\/icons\/wikipedia.pn)"
+  }
+}
