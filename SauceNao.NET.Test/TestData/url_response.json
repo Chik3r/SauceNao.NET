@@ -1,0 +1,409 @@
+﻿{
+  "header": {
+    "user_id": "111527",
+    "account_type": "1",
+    "short_limit": "4",
+    "long_limit": "100",
+    "long_remaining": 95,
+    "short_remaining": 3,
+    "status": 0,
+    "results_requested": "8",
+    "index": {
+      "0": {
+        "status": 0,
+        "parent_id": 0,
+        "id": 0,
+        "results": 8
+      },
+      "2": {
+        "status": 0,
+        "parent_id": 2,
+        "id": 2,
+        "results": 8
+      },
+      "5": {
+        "status": 0,
+        "parent_id": 5,
+        "id": 5,
+        "results": 8
+      },
+      "51": {
+        "status": 0,
+        "parent_id": 5,
+        "id": 51,
+        "results": 8
+      },
+      "52": {
+        "status": 0,
+        "parent_id": 5,
+        "id": 52,
+        "results": 8
+      },
+      "53": {
+        "status": 0,
+        "parent_id": 5,
+        "id": 53,
+        "results": 8
+      },
+      "6": {
+        "status": 0,
+        "parent_id": 6,
+        "id": 6,
+        "results": 8
+      },
+      "8": {
+        "status": 0,
+        "parent_id": 8,
+        "id": 8,
+        "results": 8
+      },
+      "9": {
+        "status": 0,
+        "parent_id": 9,
+        "id": 9,
+        "results": 16
+      },
+      "10": {
+        "status": 0,
+        "parent_id": 10,
+        "id": 10,
+        "results": 8
+      },
+      "11": {
+        "status": 0,
+        "parent_id": 11,
+        "id": 11,
+        "results": 8
+      },
+      "12": {
+        "status": 0,
+        "parent_id": 9,
+        "id": 12,
+        "results": 16
+      },
+      "16": {
+        "status": 0,
+        "parent_id": 16,
+        "id": 16,
+        "results": 8
+      },
+      "18": {
+        "status": 0,
+        "parent_id": 18,
+        "id": 18,
+        "results": 8
+      },
+      "19": {
+        "status": 0,
+        "parent_id": 19,
+        "id": 19,
+        "results": 8
+      },
+      "20": {
+        "status": 0,
+        "parent_id": 20,
+        "id": 20,
+        "results": 8
+      },
+      "21": {
+        "status": 0,
+        "parent_id": 21,
+        "id": 21,
+        "results": 8
+      },
+      "211": {
+        "status": 0,
+        "parent_id": 21,
+        "id": 211,
+        "results": 8
+      },
+      "22": {
+        "status": 0,
+        "parent_id": 22,
+        "id": 22,
+        "results": 8
+      },
+      "23": {
+        "status": 0,
+        "parent_id": 23,
+        "id": 23,
+        "results": 8
+      },
+      "24": {
+        "status": 0,
+        "parent_id": 24,
+        "id": 24,
+        "results": 8
+      },
+      "25": {
+        "status": 0,
+        "parent_id": 9,
+        "id": 25,
+        "results": 16
+      },
+      "26": {
+        "status": 0,
+        "parent_id": 9,
+        "id": 26,
+        "results": 16
+      },
+      "27": {
+        "status": 0,
+        "parent_id": 9,
+        "id": 27,
+        "results": 16
+      },
+      "28": {
+        "status": 0,
+        "parent_id": 9,
+        "id": 28,
+        "results": 16
+      },
+      "29": {
+        "status": 0,
+        "parent_id": 9,
+        "id": 29,
+        "results": 16
+      },
+      "30": {
+        "status": 0,
+        "parent_id": 9,
+        "id": 30,
+        "results": 16
+      },
+      "31": {
+        "status": 0,
+        "parent_id": 31,
+        "id": 31,
+        "results": 8
+      },
+      "32": {
+        "status": 0,
+        "parent_id": 32,
+        "id": 32,
+        "results": 8
+      },
+      "33": {
+        "status": 0,
+        "parent_id": 33,
+        "id": 33,
+        "results": 8
+      },
+      "34": {
+        "status": 0,
+        "parent_id": 34,
+        "id": 34,
+        "results": 8
+      },
+      "341": {
+        "status": 0,
+        "parent_id": 341,
+        "id": 341,
+        "results": 8
+      },
+      "35": {
+        "status": 0,
+        "parent_id": 35,
+        "id": 35,
+        "results": 8
+      },
+      "36": {
+        "status": 0,
+        "parent_id": 36,
+        "id": 36,
+        "results": 8
+      },
+      "37": {
+        "status": 0,
+        "parent_id": 37,
+        "id": 37,
+        "results": 8
+      },
+      "371": {
+        "status": 0,
+        "parent_id": 371,
+        "id": 371,
+        "results": 8
+      },
+      "38": {
+        "status": 0,
+        "parent_id": 38,
+        "id": 38,
+        "results": 8
+      },
+      "39": {
+        "status": 0,
+        "parent_id": 39,
+        "id": 39,
+        "results": 8
+      },
+      "40": {
+        "status": 0,
+        "parent_id": 40,
+        "id": 40,
+        "results": 8
+      },
+      "41": {
+        "status": 0,
+        "parent_id": 41,
+        "id": 41,
+        "results": 8
+      },
+      "42": {
+        "status": 0,
+        "parent_id": 42,
+        "id": 42,
+        "results": 8
+      },
+      "43": {
+        "status": 0,
+        "parent_id": 43,
+        "id": 43,
+        "results": 8
+      },
+      "44": {
+        "status": 0,
+        "parent_id": 44,
+        "id": 44,
+        "results": 8
+      }
+    },
+    "search_depth": "128",
+    "minimum_similarity": 50.77,
+    "query_image_display": "\/userdata\/Xwz2cTzzm.png.png",
+    "query_image": "Xwz2cTzzm.png",
+    "results_returned": 8
+  },
+  "results": [
+    {
+    "header": {
+      "similarity": "68.55",
+      "thumbnail": "https:\/\/img3.saucenao.com\/dA2\/92572\/925729264.jpg?auth=pqD37LcQQSzAr-76FUp6mw\u0026exp=1691521200",
+      "index_id": 34,
+      "index_name": "Index #34: deviantArt2 - 925729264.jpg",
+      "dupes": 0,
+      "hidden": 0
+    },
+    "data": {
+      "ext_urls": ["https:\/\/deviantart.com\/view\/925729264"],
+      "title": "New Ithanpedia Logo",
+      "da_id": "925729264",
+      "author_name": "Maxti82",
+      "author_url": "https:\/\/www.deviantart.com\/maxti82"
+    }
+  }, {
+    "header": {
+      "similarity": "49.77",
+      "thumbnail": "https:\/\/img1.saucenao.com\/res\/pixiv\/2430\/manga\/24306697_p0.jpg?auth=K-brJ4T2OC_nnkN6dVftGg\u0026exp=1691521200",
+      "index_id": 5,
+      "index_name": "Index #5: Pixiv Images - 24306697_p0.jpg",
+      "dupes": 0,
+      "hidden": 0
+    },
+    "data": {
+      "ext_urls": ["https:\/\/www.pixiv.net\/member_illust.php?mode=medium\u0026illust_id=24306697"],
+      "title": "my everlong",
+      "pixiv_id": 24306697,
+      "member_name": "veramay",
+      "member_id": 3240142
+    }
+  }, {
+    "header": {
+      "similarity": "49.50",
+      "thumbnail": "https:\/\/img3.saucenao.com\/dA2\/74826\/748263152.jpg?auth=p8rllQPrSX_C0Rsw3xOhBQ\u0026exp=1691521200",
+      "index_id": 34,
+      "index_name": "Index #34: deviantArt2 - 748263152.jpg",
+      "dupes": 0,
+      "hidden": 0
+    },
+    "data": {
+      "ext_urls": ["https:\/\/deviantart.com\/view\/748263152"],
+      "title": "[WoR] cakeouttadafridge",
+      "da_id": "748263152",
+      "author_name": "LarusTalcott",
+      "author_url": "https:\/\/www.deviantart.com\/larustalcott"
+    }
+  }, {
+    "header": {
+      "similarity": "49.44",
+      "thumbnail": "https:\/\/img1.saucenao.com\/res\/bcy\/illust\/48\/485983.jpg?auth=hrJEUld0aYEv1FCvTR27fw\u0026exp=1691521200",
+      "index_id": 31,
+      "index_name": "Index #31: bcy.net Illust - 485983.jpg",
+      "dupes": 0,
+      "hidden": 0
+    },
+    "data": {
+      "ext_urls": ["https:\/\/bcy.net\/illust\/detail\/32580"],
+      "title": "\u5bb9\u6211ps\u3002\u3002",
+      "bcy_id": 485983,
+      "member_name": "\u8336\u4e45",
+      "member_id": 1391669,
+      "member_link_id": 32580,
+      "bcy_type": "illust"
+    }
+  }, {
+    "header": {
+      "similarity": "48.63",
+      "thumbnail": "https:\/\/img3.saucenao.com\/furaffinity\/4912\/49127781.jpg?auth=l5oVxRnDz7ls1bksP5d2mw\u0026exp=1691521200",
+      "index_id": 40,
+      "index_name": "Index #40: FurAffinity - 49127781.jpg",
+      "dupes": 0,
+      "hidden": 0
+    },
+    "data": {
+      "ext_urls": ["https:\/\/www.furaffinity.net\/view\/49127781"],
+      "title": "com-itssilverscout",
+      "fa_id": 49127781,
+      "author_name": "Box-cat",
+      "author_url": "https:\/\/www.furaffinity.net\/user\/box-cat"
+    }
+  }, {
+    "header": {
+      "similarity": "48.01",
+      "thumbnail": "https:\/\/img1.saucenao.com\/res\/pixiv\/4755\/manga\/47558952_p4.jpg?auth=-YzRNW1IJZDuNZ9Uk60ahQ\u0026exp=1691521200",
+      "index_id": 5,
+      "index_name": "Index #5: Pixiv Images - 47558952_p4.jpg",
+      "dupes": 0,
+      "hidden": 0
+    },
+    "data": {
+      "ext_urls": ["https:\/\/www.pixiv.net\/member_illust.php?mode=medium\u0026illust_id=47558952"],
+      "title": "Merry X\u0026#039;mas",
+      "pixiv_id": 47558952,
+      "member_name": "\u6211",
+      "member_id": 10490564
+    }
+  }, {
+    "header": {
+      "similarity": "47.56",
+      "thumbnail": "https:\/\/img3.saucenao.com\/dA2\/86953\/869530333.jpg?auth=qHarSL4VhcMnJ7v8gdYnBA\u0026exp=1691521200",
+      "index_id": 34,
+      "index_name": "Index #34: deviantArt2 - 869530333.jpg",
+      "dupes": 0,
+      "hidden": 0
+    },
+    "data": {
+      "ext_urls": ["https:\/\/deviantart.com\/view\/869530333"],
+      "title": "Spice Coin",
+      "da_id": "869530333",
+      "author_name": "Alpha-Pepper",
+      "author_url": "https:\/\/www.deviantart.com\/alpha-pepper"
+    }
+  }, {
+    "header": {
+      "similarity": "46.89",
+      "thumbnail": "https:\/\/img1.saucenao.com\/res\/nijie\/34\/manga\/343417_p12.jpg?auth=BOTg7mWNAUXuM6C-Sp9reA\u0026exp=1691521200",
+      "index_id": 11,
+      "index_name": "Index #11: Nijie Images - 343417_p12.jpg",
+      "dupes": 0,
+      "hidden": 0
+    },
+    "data": {
+      "ext_urls": ["https:\/\/nijie.info\/view.php?id=343417"],
+      "title": "\u8272\u3005\u307e\u3068\u3081",
+      "nijie_id": 343417,
+      "member_name": "\u30bd\u30e9\u30de\u30e1@",
+      "member_id": 415559
+    }
+  }]
+}

@@ -7,7 +7,7 @@
     "long_remaining": 94,
     "short_remaining": 3,
     "status": 0,
-    "results_requested": 16,
+    "results_requested": "16",
     "index": {
       "0": {
         "status": 0,

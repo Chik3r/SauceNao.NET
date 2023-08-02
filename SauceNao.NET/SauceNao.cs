@@ -37,6 +37,31 @@ public class SauceNao {
         HttpResponseMessage response = await Client.PostAsync(uri, content);
         response.EnsureSuccessStatusCode();
         
+        return await ParseResponse(response);
+    }
+    
+    public async Task<SearchResult> Search(string imageUrl) {
+        Dictionary<string, string> parameters = new() {
+            ["api_key"] = ApiKey,
+            ["output_type"] = OutputType.Json.ToString(),
+            ["url"] = imageUrl,
+            // ["dbmask"]
+            // ["dbmaski"]
+            // ["db"]
+            // ["dbs[]"]
+            // ["numres"]
+            // ["dedupe"]
+            // ["hide"]
+        };
+        Uri uri = AddParameters(new Uri(BaseUrl), parameters);
+
+        HttpResponseMessage response = await Client.PostAsync(uri, null);
+        response.EnsureSuccessStatusCode();
+        
+        return await ParseResponse(response);
+    }
+
+    private static async Task<SearchResult> ParseResponse(HttpResponseMessage response) {
         string json = await response.Content.ReadAsStringAsync();
         SearchResult result = JsonSerializer.Deserialize<SearchResult>(json) ?? throw new NullReferenceException();
 
@@ -48,7 +73,7 @@ public class SauceNao {
             throw new RateLimitException(RateLimitReached.ShortLimit);
         if (result.Header.LongRemaining < 0)
             throw new RateLimitException(RateLimitReached.LongLimit);
-        
+
         return result;
     }
 

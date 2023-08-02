@@ -11,7 +11,7 @@ public record ResultHeader(
     [property: JsonPropertyName("short_remaining")] int ShortRemaining,
     [property: JsonPropertyName("status")] int Status,
     [property: JsonPropertyName("message")] string? Message,
-    [property: JsonPropertyName("results_requested")] int ResultsRequested,
+    [property: JsonPropertyName("results_requested")] string ResultsRequested,
     [property: JsonPropertyName("index")] Dictionary<string, Index> Indexes,
     [property: JsonPropertyName("search_depth")] string SearchDepth,
     [property: JsonPropertyName("minimum_similarity")] double MinimumSimilarity,

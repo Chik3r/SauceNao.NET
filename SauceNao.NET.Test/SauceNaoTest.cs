@@ -32,6 +32,24 @@ public class SauceNaoTest {
         Assert.NotEmpty(result.Results);
 
         Data first = result.Results[0].Data;
-        Assert.Equal(first.PixivId, 51318798);
+        Assert.Equal(51318798, first.PixivId);
+    }
+
+    [Fact]
+    public async Task RequestWebImage() {
+        SauceNao sauceNao = new("valid", MockHttp.ToHttpClient());
+        
+        string response = await File.ReadAllTextAsync("TestData/url_response.json");
+        
+        MockHttp.When(SauceNao.BaseUrl)
+            .WithQueryString("api_key", "valid")
+            .WithQueryString("url", "https://wikipedia.org/static/images/icons/wikipedia.png")
+            .Respond("application/json", response);
+        SearchResult result = await sauceNao.Search("https://wikipedia.org/static/images/icons/wikipedia.png");
+        Assert.NotNull(result.Results);
+        Assert.NotEmpty(result.Results);
+
+        Data first = result.Results[0].Data;
+        Assert.Equal("925729264", first.DaId);
     }
 }
