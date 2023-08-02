@@ -1,7 +1,11 @@
-﻿namespace SauceNao.NET.Client; 
+﻿using CliFx;
+
+namespace SauceNao.NET.Client; 
 
 class Program {
-    public static async Task Main() {
-        Console.WriteLine("Hello, World!");
-    }
+    public static async Task<int> Main() =>
+        await new CliApplicationBuilder()
+            .AddCommandsFromThisAssembly()
+            .Build()
+            .RunAsync();
 }

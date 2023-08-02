@@ -11,4 +11,8 @@
 	  <ProjectReference Include="..\SauceNao.NET\SauceNao.NET.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <PackageReference Include="CliFx" Version="2.3.4" />
+	</ItemGroup>
+
 </Project>
