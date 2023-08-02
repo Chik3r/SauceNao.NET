@@ -33,10 +33,10 @@ public class FindSource : ICommand {
             return;
         }
 
-        await console.Output.WriteLineAsync($"{"Similarity",-15} {"URL",5}");
+        await console.Output.WriteLineAsync($"{"Similarity",-15} {"URL",3}");
         foreach (Result result in validResults) {
             string url = result.Data.ExtUrls?[0] ?? "No URL found.";
-            await console.Output.WriteLineAsync($"{result.Header.Similarity,-15} {url,5}");
+            await console.Output.WriteLineAsync($"{result.Header.Similarity,-15} {url,3}");
         }
     }
 }
