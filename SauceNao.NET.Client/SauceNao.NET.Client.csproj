@@ -7,4 +7,8 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\SauceNao.NET\SauceNao.NET.csproj" />
+	</ItemGroup>
+
 </Project>
