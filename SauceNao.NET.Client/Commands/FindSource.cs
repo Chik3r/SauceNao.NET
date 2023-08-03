@@ -48,18 +48,21 @@ public class FindSource : ICommand {
         if (!Download)
             return;
 
-        Data data = validResults[0].Data;
-        if (data.PixivId is null) {
-            await console.Output.WriteLineAsync("Highest similarity result does not have a pixiv ID.");
+        Result? pixivResult = validResults.FirstOrDefault(x => x.Data.PixivId is not null);
+        if (pixivResult is null) {
+            await console.Output.WriteLineAsync("No pixiv source found within valid results.");
             return;
         }
 
+        await console.Output.WriteLineAsync($"Using pixiv result with {pixivResult.Header.Similarity}% similarity");
+        Data data = pixivResult.Data;
+
         await console.Output.WriteLineAsync("Requesting image info...");
         HttpRequestMessage requestMessage = new(HttpMethod.Get, $"https://www.pixiv.net/ajax/illust/{data.PixivId}");
-        HttpResponseMessage pixivResult = await client.SendAsync(requestMessage);
-        pixivResult.EnsureSuccessStatusCode();
+        HttpResponseMessage pixivRequestResult = await client.SendAsync(requestMessage);
+        pixivRequestResult.EnsureSuccessStatusCode();
         
-        string pixivResponse = await pixivResult.Content.ReadAsStringAsync();
+        string pixivResponse = await pixivRequestResult.Content.ReadAsStringAsync();
         PixivResponse? pixiv = JsonSerializer.Deserialize<PixivResponse>(pixivResponse);
 
         if (pixiv is null || pixiv.Error) {
