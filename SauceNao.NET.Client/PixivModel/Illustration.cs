@@ -9,7 +9,7 @@ public record Illustration(
     [property: JsonPropertyName("xRestrict")] int XRestrict,
     [property: JsonPropertyName("restrict")] int Restrict,
     [property: JsonPropertyName("sl")] int Sl,
-    [property: JsonPropertyName("url")] string Url,
+    [property: JsonPropertyName("url")] string? Url,
     [property: JsonPropertyName("description")] string Description,
     // [property: JsonPropertyName("tags")] IReadOnlyList<string> Tags,
     [property: JsonPropertyName("userId")] string UserId,
